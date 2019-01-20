@@ -21,7 +21,7 @@ client.registry
 
 client.on("ready", () => {
     console.log("Initialized successfully");
-    client.user.setActivity("with time.");
+    client.user.setActivity("fantastic indie games.");
 });
 
 client.login(config.token);
