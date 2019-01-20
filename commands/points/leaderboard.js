@@ -1,6 +1,6 @@
 var { Command } = require('discord.js-commando');
 const  SQLite = require('better-sqlite3');
-const pointsDb = new SQLite('../../DB/points.sqlite');
+const pointsDb = new SQLite('DB/points.sqlite');
 
 module.exports = class LeaderboardCommand extends Command {
     constructor(client) {
