@@ -12,7 +12,8 @@ const client = new CommandoClient({
 client.registry
     .registerDefaultTypes()
     .registerGroups([
-        ['points', "Points"]
+        ['points', "Points"],
+        ['owner', "Owner Commands"]
     ])
     .registerDefaultGroups()
     .registerDefaultCommands()
