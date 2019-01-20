@@ -3,6 +3,9 @@ const path = require('path');
 
 const config = require("./config.json");
 
+const SQLite = require("better-sqlite3");
+const sql = new SQLite("DB/points.sql")
+
 const client = new CommandoClient({
     commandPrefix: "\\",
     owner: "118455061222260736",
